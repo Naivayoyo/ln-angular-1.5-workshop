@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"title": "Pizza",
+		"rating": 5,
+		"occasion": "Anytime"
+	},
+	{
+		"id": 2,
+		"title": "Pasta",
+		"rating": 5,
+		"occasion": "Lunch & Dinner"
+	},
+	{
+		"id": 3,
+		"title": "Fries",
+		"rating": 4,
+		"occasion": "Lunch & Dinner"
+	},
+	{
+		"id": 4,
+		"title": "Oreos",
+		"rating": 5,
+		"occasion": "Anytime"
+	},
+	{
+		"id": 5,
+		"title": "Ice Cream",
+		"rating": 4,
+		"occasion": "Anytime"
+	}
+]

@@ -1,0 +1,32 @@
+<div>
+	<table class="table">
+		<tr>
+			<th>Title</th>
+			<th>Occasion</th>
+			<th>Rating</th>
+			<th></th>
+		</tr>
+		<tr ng-repeat="food in lnVm.foodList">
+			<td>{{food.title}}</td>
+			<td>{{food.occasion}}</td>
+			<td>
+				<food-rating rating="food.rating">
+					<span class="glyphicon glyphicon-star"></span>
+				</food-rating>
+			</td>
+			<td>
+				
+				<div class="btn-group">
+					<button class="btn btn-default" ng-click="lnVm.downRating(food)">
+						<span class="glyphicon glyphicon-minus"></span>
+					</button>
+					<button class="btn btn-default" ng-click="lnVm.upRating(food)">
+						<span class="glyphicon glyphicon-plus"></span>
+					</button>
+					
+				</div>
+
+			</td>
+		</tr>
+	</table>
+</div>
