@@ -19,7 +19,6 @@
 		templateUrl: '/app/templates/food-rating.html',
 		controllerAs: 'ratingVm',
 		controller: foodRatingController,
-		transclude: true,
 		bindings: {
 			rating: '<' // one-way-binding
 		}
