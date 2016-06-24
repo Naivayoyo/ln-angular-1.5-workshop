@@ -1,32 +1,40 @@
+// EXAMPLE FOOD JSON OBJECT -- create 5 of these to represent your 5 favorite foods!
+// {
+// 	"id": 1,
+// 	"title": "Pizza",
+// 	"rating": 5,
+// 	"occasion": "All day, every day!"
+// }
+
 [
 	{
 		"id": 1,
-		"title": "Pizza",
-		"rating": 5,
-		"occasion": "Anytime"
+		"title": "",
+		"rating": 1,
+		"occasion": ""
 	},
 	{
 		"id": 2,
-		"title": "Pasta",
-		"rating": 5,
-		"occasion": "Lunch & Dinner"
+		"title": "",
+		"rating": 1,
+		"occasion": ""
 	},
 	{
 		"id": 3,
-		"title": "Fries",
-		"rating": 4,
-		"occasion": "Lunch & Dinner"
+		"title": "",
+		"rating": 1,
+		"occasion": ""
 	},
 	{
 		"id": 4,
-		"title": "Oreos",
-		"rating": 5,
-		"occasion": "Anytime"
+		"title": "",
+		"rating": 1,
+		"occasion": ""
 	},
 	{
 		"id": 5,
-		"title": "Ice Cream",
-		"rating": 4,
-		"occasion": "Anytime"
+		"title": "",
+		"rating": 1,
+		"occasion": ""
 	}
 ]
