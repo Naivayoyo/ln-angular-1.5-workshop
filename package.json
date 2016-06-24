@@ -14,7 +14,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a 0.0.0.0 -p 3333",
+    "start": "http-server -a 0.0.0.0 -p 3334",
 
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",

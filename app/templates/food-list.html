@@ -6,7 +6,7 @@
 			<th>Rating</th>
 			<th></th>
 		</tr>
-		<tr ng-repeat="food in lnVm.foodList">
+		<tr ng-repeat="food in listVm.foodList">
 			<td>{{food.title}}</td>
 			<td>{{food.occasion}}</td>
 			<td>
@@ -15,10 +15,10 @@
 			<td>
 				
 				<div class="btn-group">
-					<button class="btn btn-default" ng-click="lnVm.downRating(food)">
+					<button class="btn btn-default" ng-click="listVm.downRating(food)">
 						<span class="glyphicon glyphicon-minus"></span>
 					</button>
-					<button class="btn btn-default" ng-click="lnVm.upRating(food)">
+					<button class="btn btn-default" ng-click="listVm.upRating(food)">
 						<span class="glyphicon glyphicon-plus"></span>
 					</button>
 					

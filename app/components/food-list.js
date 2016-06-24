@@ -9,23 +9,23 @@
 	}
 
 	function foodListController($http) {
-		var lnVm = this;
+		var listVm = this;
 
-		lnVm.foodList = [];
+		listVm.foodList = [];
 
-		lnVm.$onInit = function() {
+		listVm.$onInit = function() {
 			fecthFoods($http).then(function(foods){
-				lnVm.foodList = foods;
+				listVm.foodList = foods;
 			});
 		};
 
-		lnVm.upRating = function(food) {
+		listVm.upRating = function(food) {
 			if(food.rating < 5) {
 				food.rating += 1;
 			}
 		};
 
-		lnVm.downRating = function(food) {
+		listVm.downRating = function(food) {
 			if(food.rating > 1) {
 				food.rating -= 1;
 			}
@@ -33,9 +33,9 @@
 	}
 
 
-	angular.module('lnAngularApp').component('foodList', {
+	angular.module('foodApp').component('foodList', {
 		templateUrl: '/app/templates/food-list.html',
-		controllerAs: 'lnVm',
+		controllerAs: 'listVm',
 		controller: ['$http', foodListController]
 	});
 }());

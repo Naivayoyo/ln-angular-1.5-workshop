@@ -15,7 +15,7 @@
 		}
 	}
 
-	angular.module('lnAngularApp').component('foodRating', {
+	angular.module('foodApp').component('foodRating', {
 		templateUrl: '/app/templates/food-rating.html',
 		controllerAs: 'ratingVm',
 		controller: foodRatingController,
