@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Angular Playground</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app/css/stylin.css">
+
+  <script src="bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="lnAngularApp" ng-controller="lnAngularAppCtrl as vm">
+    <task-list tasks="vm.tasks" selected-task="vm.selectedTask"></task-list>
+</div>
+	
+
+  <script src="app/lnAngularApp.js"></script>
+  <script src="app/components/task-list.js"></script>
+  <script src="app/components/task-details.js"></script>
+</body>
+</html>
